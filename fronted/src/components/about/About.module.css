@@ -1,0 +1,27 @@
+.about{
+    height: 400px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about h4{
+    color: orange;
+}
+
+.about h5{
+    font-size: 14px;
+}
+
+.about a{
+    width: 160px;
+    height: 30px;
+    padding: 6px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+}

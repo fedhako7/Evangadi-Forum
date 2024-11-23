@@ -1,0 +1,61 @@
+.askQuestion{
+    text-align: center;
+    margin-top: 12px;
+    background-color: rgb(248, 248, 248);
+}
+
+.askQuestion__steps__list{
+    width: 400px;
+    margin: auto;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.askQuestion__steps{
+    text-align: center;
+    list-style: disc;
+}
+
+.askQuestion__ask{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 25px auto 0 auto;
+    padding: 40px;
+    gap: 12px;
+    box-shadow: 1px 1px 4px rgba(109, 108, 108, 0.2);
+    background-color: white;
+}
+
+.askQuestion__ask button{
+    height: 34px;
+    width: 160px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px; 
+}
+
+.askQuestion__ask input{
+    height: 40px;
+    width: 96%;
+    margin: 5px;
+}
+
+.askQuestion__ask input, textarea{
+    padding-left: 8px;
+    border: none;
+    border: 1px solid rgb(143, 141, 141);
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgba(90, 89, 89, 0.2);
+}
+
+.askQuestion__ask textarea{
+    height: 120px;
+}
+
+.askQuestion__ask a{
+    text-decoration: none;
+    color: black;
+}

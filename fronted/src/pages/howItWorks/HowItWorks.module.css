@@ -1,0 +1,22 @@
+.howItWorks {
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.howItWorks ol {
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+.howItWorks p {
+    font-weight: bold;
+}
+
+.howItWorks ol span {
+    font-weight: bold;
+}

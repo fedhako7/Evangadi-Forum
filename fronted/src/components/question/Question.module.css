@@ -1,0 +1,62 @@
+.question_container{
+    padding: 15px;
+}
+
+hr{
+    width: 99%;
+}
+
+.question {
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 6px;
+}
+
+.question__ask {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.question__ask button{
+    height: 34px;
+    width: 160px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.question__ask p{
+    padding-right: 16px;
+    color: rgb(65, 63, 63);
+    font-weight: 550;
+    font-size: 16px;
+}
+
+.questionCard{
+    display: flex;
+    color: black;
+}
+
+.questionCard__profile{
+    width: 10%;
+    cursor: auto;
+    text-align: center;
+}
+
+.questionCard__profile p{
+    text-decoration: none;
+}
+
+.questionCard__ques{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+
+.no_decoration{
+    text-decoration: none;
+}
