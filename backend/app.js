@@ -9,7 +9,7 @@ const db = require('./database/database')
 
 const app = express()
 app.use(cors())
-const port = 5600
+const port = process.env.PORT || 5600;
 app.use(express.json())
 app.use("/api/users", userRoute)
 app.use("/api/questions",authMiddleware, questionRoute)
